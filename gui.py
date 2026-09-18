@@ -294,12 +294,10 @@ class ScraperApp:
     # show contact information popup dialog
     def contactMe(self):
         messagebox.showinfo(
-            "Contact Me",
-            "For any questions or feedback, please contact me at:\n\n"
-            "Email: sowrishsowrish@gmail.com\n"
-            "Phone: (470) 807-9885"
-        )
-
+        "Contact Me",
+        "For questions or feedback, please open an issue on GitHub:\n\n"
+        "github.com/sowrishsowrish-creator/usa-business-scraper/issues"
+    )
 
     # ---- Init (builds the whole window) ----
 
